@@ -17,8 +17,8 @@ body{
 :root {
   --background--color: #DE1337;
   --color--negro-primario: #000000;
-  --color--negro-secundario: #1a1a1a;
-  --color--blanco-primario: #ffffff;
+  --color--height: #78C850;
+  --color--weidht: #A040A0;
   --color--blanco-secundario: #e5e5e5;
 }
 
@@ -89,13 +89,21 @@ body{
 }
 
 .card__container-height, .card__container-weight{
-  color: var(--color--blanco-secundario);
   font-size: 1.5rem;
   height: 2rem;
   width: auto;
-  background-color: grey;
   border-radius: 0.3rem;
   text-align: center;
+}
+
+.card__container-height{
+  background-color: var(--color--height);
+  color: var(--color--negro-primario);
+}
+
+.card__container-weight{
+  background-color: var(--color--weidht);
+  color: var(--color--blanco-secundario);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1030px)
