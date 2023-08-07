@@ -29,14 +29,18 @@ body{
   margin: 3rem;
 }
 
+#pokemon__container{
+  display: grid;
+  grid-template-columns: 25rem 25rem 25rem;
+  gap: 8rem;
+}
+
 .card__container{
   background-color: var(--color--blanco-secundario);
   border-radius: 2rem;
   height: auto;
   width: 25rem;
   margin: 5rem;
-  display: grid;
-  grid-template-columns: 25rem 25rem 25rem;
   box-shadow:  rgba(0, 0, 0, .5);
   text-transform: uppercase;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
@@ -96,15 +100,18 @@ body{
 
 @media screen and (min-width: 768px) and (max-width: 1030px)
 {
-  .card__container{
-    grid-template-columns: 25rem 25rem;
+  #pokemon__container{
+    grid-template-columns: auto auto;
+    gap: 3rem;
+    justify-content: center;
   }
 }
 
 @media screen and (max-width: 768px) 
 {
-  .card__container{
-    grid-template-columns: 25rem;
-    gap: 2rem;
+  #pokemon__container{
+    grid-template-columns: auto;
+    gap: 3rem;
+    justify-content: center;
   }
 }
