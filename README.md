@@ -13,4 +13,5 @@
   <li>JAVASCRIPT</li>
 </ul>
 
-![image](https://github.com/BriaYan1/Pokedex/assets/130705096/16e0dc79-a472-4a10-8fee-1831f3cb77f5)
+![image](https://github.com/BriaYan1/Pokedex/assets/130705096/033f9927-8a0e-4b63-86b2-42eef93d04f1)
+
