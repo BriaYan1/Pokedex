@@ -12,3 +12,5 @@
   <li>CSS 3</li>
   <li>JAVASCRIPT</li>
 </ul>
+
+![image](https://github.com/BriaYan1/Pokedex/assets/130705096/16e0dc79-a472-4a10-8fee-1831f3cb77f5)
